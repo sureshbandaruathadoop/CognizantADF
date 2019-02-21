@@ -1,0 +1,15 @@
+{
+	"name": "SqlServerlocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=sureshsql2017;initial catalog=sqldb;user id=suresh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyZDNiMDg3Zi0zOGRkLTRmZDEtOTRmYy03ZjdiMWY3ZmIxODYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sureshir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

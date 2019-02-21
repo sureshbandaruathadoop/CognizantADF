@@ -1,0 +1,36 @@
+{
+	"name": "DestinationDataset_8x7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerlocal",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "ID",
+				"type": "Int32"
+			},
+			{
+				"name": "first_name",
+				"type": "String"
+			},
+			{
+				"name": "last_name",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": "companyname",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[employeeazure]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

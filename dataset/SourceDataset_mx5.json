@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_mx5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerlocal",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[dbo].[employeeazure]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

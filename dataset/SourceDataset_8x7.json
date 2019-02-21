@@ -1,0 +1,48 @@
+{
+	"name": "SourceDataset_8x7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sureshazureblobstore",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"structure": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "first_name",
+				"type": "String"
+			},
+			{
+				"name": "last_name",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": "company_name",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"rowDelimiter": "",
+				"quoteChar": "\"",
+				"nullValue": "\\N",
+				"encodingName": null,
+				"treatEmptyAsNull": true,
+				"skipLineCount": 0,
+				"firstRowAsHeader": true
+			},
+			"fileName": "EmployeeDataCSVFormat.csv",
+			"folderPath": "employee"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

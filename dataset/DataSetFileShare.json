@@ -1,0 +1,12 @@
+{
+	"name": "DataSetFileShare",
+	"properties": {
+		"description": "this is the dataset C:\\Temp\\Files",
+		"linkedServiceName": {
+			"referenceName": "sureshlocalfile",
+			"type": "LinkedServiceReference"
+		},
+		"type": "FileShare"
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

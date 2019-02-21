@@ -1,0 +1,15 @@
+{
+	"name": "DataSetBlobstorage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sureshazureblobstore",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "files"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,40 @@
+{
+	"name": "DestinationDataset_w9u",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "id",
+				"type": "Int32"
+			},
+			{
+				"name": "first_name",
+				"type": "String"
+			},
+			{
+				"name": "last_name",
+				"type": "String"
+			},
+			{
+				"name": "email",
+				"type": "String"
+			},
+			{
+				"name": "city",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[EmpDetails]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

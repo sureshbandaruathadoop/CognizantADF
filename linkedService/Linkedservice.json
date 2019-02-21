@@ -1,0 +1,16 @@
+{
+	"name": "Linkedservice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=sureshsql2017;initial catalog=AdventureWorks2014",
+			"userName": "suresh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzODNmMTQ2OS0yNzY1LTQwODctYjI3MC1mMDFkOTg2ZjQ1MmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sureshir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
